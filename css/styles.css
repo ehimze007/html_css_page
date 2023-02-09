@@ -1,0 +1,53 @@
+* {
+  color: #fff;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", "Courier New", monospace;
+  color: white;
+  background: url("../img/background-img.jpg") no-repeat center;
+  background-size: cover;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 50px;
+  background-color: #000;
+  opacity: 0.5;
+}
+
+.cascade_logo {
+  width: 200px;
+  margin: 0;
+}
+
+nav ul a {
+  text-decoration-line: none;
+  margin: 0 15px;
+}
+
+main {
+  text-align: center;
+  margin-top: 15%;
+}
+
+main h1 {
+  width: 60%;
+  margin: auto;
+  font-size: 60px;
+  font-weight: 1000;
+}
+
+.button_style {
+  border-style: none;
+  border-radius: 4px;
+  background-color: #ff0000;
+  font-weight: 700;
+  text-align: center;
+  padding: 10px;
+  margin: 0 10px;
+}
